@@ -18,7 +18,7 @@ train_X = train_X.astype("float32")
 test_y = to_categorical(test_y)
 train_y = to_categorical(train_y)
 
-# Add layers
+# Add layers to model
 model = Sequential()
 model.add(Dense(units=200 , input_dim = 28*28 , activation = 'relu'))
 model.add(Dense(units=60 , input_dim = 28*28 , activation = 'relu'))
