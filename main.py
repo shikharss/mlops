@@ -39,7 +39,7 @@ model.compile( optimizer= "Adam" , loss='categorical_crossentropy',  metrics=['a
 print(model.summary())
 
 batch_size = 128
-epochs = 1
+epochs = 10
 
 history = model.fit(x_train, y_train,
           batch_size=batch_size,verbose=1,
