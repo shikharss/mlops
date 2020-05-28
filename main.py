@@ -7,6 +7,7 @@ from keras.optimizers import Adam
 from keras.backend import clear_session
 import numpy
 
+
 # Load Model 
 (train_X , train_y), (test_X , test_y) = mnist.load_data("mymnist.data")
 # Reshape data and change type
